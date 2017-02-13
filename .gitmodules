@@ -41,3 +41,6 @@
 [submodule "src/drivers/gps/devices"]
 	path = src/drivers/gps/devices
 	url = https://github.com/PX4/GpsDrivers.git
+[submodule "Tools/vrep"]
+	path = Tools/vrep
+	url = https://github.com/PX4/jMAVSim.git

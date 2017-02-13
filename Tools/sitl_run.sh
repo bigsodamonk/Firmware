@@ -77,6 +77,11 @@ then
 	$src_path/Tools/jmavsim_run.sh &
 	SIM_PID=`echo $!`
 	cd ../..
+elif [ "$program" == "vrep" ] && [ ! -n "$no_sim" ]
+then
+	$src_path/Tools/vrep_run.sh &
+	SIM_PID=`echo $!`
+	cd ../..
 elif [ "$program" == "gazebo" ] && [ ! -n "$no_sim" ]
 then
 	if [ -x "$(command -v gazebo)" ]
