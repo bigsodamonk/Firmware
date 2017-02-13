@@ -34,6 +34,6 @@ else
 	device="-serial $device $baudrate"
 fi
 
-ant create_run_jar copy_res
-cd out/production
-java -Djava.ext.dirs= -jar jmavsim_run.jar $device $extra_args
+#ant create_run_jar copy_res
+#cd out/production
+#java -Djava.ext.dirs= -jar jmavsim_run.jar $device $extra_args
